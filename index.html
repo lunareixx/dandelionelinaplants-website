@@ -654,7 +654,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<!-- contact form grid -->
 					<fieldset class="contact-top1" data-blast="borderColor">
 						<legend class="text-wh let text-capitalize">send us a note</legend>
-						<form action="" method="post" class="f-color">
+						<form action="POST" data-netlify="true" class="f-color">
 							<div class="form-group">
 								<label for="contactusername">Name</label>
 								<input type="text" class="form-control" name="name" id="contactusername" required placeholder="Masukan nama anda">
@@ -666,6 +666,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<div class="form-group">
 								<label for="contactcomment">Your Message</label>
 								<textarea class="form-control" rows="5" name="message" id="contactcomment" required placeholder="Pesan anda"></textarea>
+							</div>
+							<div class="field">
+								<div data-netlify-recaptcha="true"></div>
 							</div>
 							<button type="submit" class="btn btn-block" data-blast="bgColor" value="">Send</button>
 						</form>
