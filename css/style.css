@@ -157,6 +157,18 @@ nav {
 }
 
 /* logo */
+
+.newlogo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    margin: auto
+}
+
 h1.logo {
     position: absolute;
     left: 47%;
@@ -1208,6 +1220,16 @@ p.footer-para {
 }
 
 /* footer logo */
+
+.newlogo2 {
+    position: relative;
+    top: 1rem !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+}
 .logo2 {
     position: relative;
 }
