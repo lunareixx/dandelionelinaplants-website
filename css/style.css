@@ -158,13 +158,10 @@ nav {
 
 /* logo */
 
-.newlogo {
-    position: absolute;
-}
-
 h1.logo {
     position: absolute;
-    left: 47%;
+    left: 48%;
+    bottom: 3px;
 }
 
 .logo a {
@@ -178,7 +175,7 @@ h1.logo {
     position: absolute;
     font-size: 26px;
     transform: rotate(-71deg);
-    bottom: 30px;
+    bottom: 0px;
     left: -9px;
     color: #00BFA5;
 }
