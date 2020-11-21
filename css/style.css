@@ -161,6 +161,7 @@ nav {
 h1.logo {
     position: absolute;
     left: 48.5%;
+    bottom: 12.5%;
 }
 
 .logo a {
