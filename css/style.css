@@ -161,25 +161,23 @@ nav {
 h1.logo {
     position: absolute;
     left: 48.5%;
-    bottom: 12.5%;
+    top: -0.5%;
 }
-
 .logo a {
-    font-size: 46px;
-    color: #00BFA5;
-    font-family: 'Niconne', cursive;
-    letter-spacing: 1px;
+  font-size: 46px;
+  color: #00BFA5;
+  font-family: 'Niconne', cursive;
+  letter-spacing: 1px;
 }
 
 .logo i {
-    position: absolute;
-    font-size: 26px;
-    transform: rotate(-71deg);
-    bottom: 0px;
-    left: -9px;
-    color: #00BFA5;
+  position: absolute;
+  font-size: 26px;
+  transform: rotate(-71deg);
+  bottom: 30px;
+  left: -9px;
+  color: #00BFA5;
 }
-
 /* //logo */
 
 /* Since we'll have the "ul li" "float:left"
