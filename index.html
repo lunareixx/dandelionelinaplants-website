@@ -8,7 +8,7 @@
 	<meta charset="UTF-8" />
 	<meta name="keywords" content="Dandelionelinaplants, Dandelionelina, Dandelion, Plants, Almira putri kirana, Raihan Putra Kirana, Wordpress, Website" />
 	<!--// Meta tag Keywords -->
-
+  
 	<!-- Custom-Files -->
         <link rel="icon" href="images/favicon.png" type="image/png">
 	<link rel="stylesheet" href="css/bootstrap.css">
@@ -33,6 +33,7 @@
 </head>
 
 <body>
+  
 	<div id="home">
 		<!-- header -->
 		<header class="header-style fixed-top">
@@ -89,6 +90,13 @@
 									<h3 class="text-wh">Welcome to Dandelionelina Plants</h3>
 									<p class="text-li mx-auto mt-2">The beginner plant mom</p>
 									<a href="#about" class="button-style scroll mt-sm-5 mt-4">Read More</a>
+								  <div>
+								  <audio loop id="bgmusic" src="audio/Chopin-Nocturne-op9-No-2.mp3"></audio>
+								  <button class="musicbtn">
+								    <i class="fa fa-play-circle-o"></i>
+								    <i class="fa fa-pause-circle-o"></i>
+								  </button>
+								  </div>
 								</div>
 							</div>
 						</div>
@@ -882,7 +890,25 @@
 	<!-- move top icon -->
 	<a href="#home" class="move-top text-center"></a>
 	<!-- //move top icon -->
-
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	    $(".musicbtn .fa-play-circle-o").on('click', function(){
+	       $(this).hide();
+	       $(".fa-pause-circle-o").fadeIn();
+	       $("#bgmusic")[0].play();
+	    });
+	  });
+	  $(document).ready(function(){
+	    $(".musicbtn .fa-pause-circle-o").on('click', function(){
+	       $(this).hide();
+	       $(".fa-play-circle-o").fadeIn();
+	       $("#bgmusic")[0].pause();
+	     });
+	  });
+	</script>
 </body>
 
 </html>

@@ -156,6 +156,20 @@ nav {
     box-shadow: 3px 3px 30px 4px rgba(8, 8, 8, 0.07);
 }
 
+.musicbtn {
+    background-color: transparent;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    opacity: .3;
+    transition: all linear .2s;
+}
+
+.musicbtn:hover {
+    opacity: 1;
+}
 /* logo */
 
 h1.logo {
